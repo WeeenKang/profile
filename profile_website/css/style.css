@@ -56,6 +56,29 @@ p {
     position: relative;
 }
 
+nav {
+    display: flex;
+    align-center: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav_image {
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+}
+
 .pro {
     text-decoration: underline;
     color: #1F8A70;
